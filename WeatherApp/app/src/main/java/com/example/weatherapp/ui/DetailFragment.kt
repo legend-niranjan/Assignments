@@ -47,7 +47,7 @@ class DetailFragment : Fragment() {
 
         weatherApi = RetrofitInstance.api
 
-        // Fetch weather data
+     
         fetchWeatherData(cityName)
 
         return view
